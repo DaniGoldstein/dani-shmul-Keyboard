@@ -1,0 +1,72 @@
+.App {
+  text-align: center; 
+  
+}
+
+body{ background-color: rgb(212, 228, 229); text-align: center;}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.keysCont{
+margin: auto;
+background-color: rgb(78, 83, 94);
+display: grid;  grid-template-rows: 70px 70px 70px;
+grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px 70px 70px;
+gap: 20px;
+
+justify-content: center;
+align-content: center;
+width: 50%;
+height: 350px;}
+
+.screenStyle{
+border:10px solid rgb(188, 188, 202); 
+background-color: rgb(216, 238, 228);
+margin: auto;
+margin-top :100px;
+margin-bottom: 100px;
+height: 300px;
+width: 60%;
+font-size: xx-large;}
+
+.keyStyle{color: rgb(231, 227, 227); font-size: larger; font-weight:bolder; border-radius: 10px;
+background-color: rgb(119, 132, 133); 
+}
+.keyStyle:hover {background-color: rgb(237, 237, 221); color:rgb(119, 132, 133) ;}
+
+.navStyle{width: 120px;
+border: 12px solid rgb(61, 61, 78);
+text-align: center;}
