@@ -1,7 +1,7 @@
 import { Button } from './button';
 import { useState } from 'react';
 import { Screen } from './screen';
-import {ColorButton } from './ColorButton';
+
  function Panenl() {
 
 
